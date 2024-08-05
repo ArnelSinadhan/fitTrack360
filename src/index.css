@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.bannerHeadings {
+  color: #3e4e78;
+}
+.navBrand {
+  color: #3e4e78 !important;
+  font-weight: 700;
+}
+.nav-link {
+  color: #3e4e78 !important;
+  font-size: 20px;
+  font-weight: 600 !important;
+}
+.getStartedh1 {
+  color: #3e4e78;
+}
+.getStarted {
+  background: linear-gradient(135deg, #3e4e78 0%, #5e6a9a 100%);
+  width: 200px;
+  border: none !important;
+  padding: 15px 0 !important;
+  border-radius: 99px !important;
+}
+.regForm {
+  width: 100%;
+}
+
+.regBtn {
+  background: linear-gradient(135deg, #3e4e78 0%, #5e6a9a 100%);
+  width: 100%;
+  border: none !important;
+  padding: 15px 0 !important;
+  border-radius: 99px !important;
+}
+.logIn {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/login.png);
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  overflow: hidden;
+}
+
+.logIn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  filter: blur(10px); /* Adjust the blur value as needed */
+  opacity: 0.7; /* Adjust the opacity value as needed */
+  z-index: -1; /* Ensure the blur is behind the content */
+}
+
+.loginForm {
+  height: 80%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.loginForm h1 {
+  color: #3e4e78;
+  font-weight: 700;
+}
+.logInBtn {
+  background: linear-gradient(135deg, #3e4e78 0%, #5e6a9a 100%);
+  border-radius: 0 !important;
+}
+.iconWrapper {
+  display: flex;
+  gap: 30px;
+  justify-content: end;
+  margin: 10px;
+}
+.fa-pen-to-square {
+  font-size: 30px;
+  color: #3e4e78;
+}
+.fa-pen-to-square:hover {
+  color: black;
+}
+.fa-trash-can {
+  font-size: 30px;
+  color: #3e4e78;
+}
+.fa-trash-can:hover {
+  color: red;
+}
+.statusWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.statusWrapper p {
+  margin: 0;
+}
+.addWorkoutBtn {
+  background: linear-gradient(135deg, #3e4e78 0%, #5e6a9a 100%);
+  border-radius: 0 !important;
+}
+.completeBtn {
+  background: linear-gradient(135deg, #3e4e78 0%, #5e6a9a 100%);
+  border-radius: 0 !important;
+}
+.completeBtn:hover {
+  background: linear-gradient(135deg, darkred 0%, #800000 100%);
+  border-radius: 0 !important;
+}
+.dashboardHeading {
+  color: #3e4e78;
+}
+.closeBtn {
+  border: none !important;
+  border-radius: 0 !important;
+  background: linear-gradient(135deg, darkred 0%, #800000 100%);
+}
