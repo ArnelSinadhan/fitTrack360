@@ -2,10 +2,12 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 import { useContext } from "react";
 import { AuthContext } from "../authContext";
 import WorkoutView from "./WorkoutView";
+import { useNavigate } from "react-router-dom";
+
 
 export default function Home() {
   const { isAuthenticated } = useContext(AuthContext);
-
+  const navigate = useNavigate();
   return (
     <Container className="mt-5 home">
       {isAuthenticated ? (
